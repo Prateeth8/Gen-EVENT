@@ -19,14 +19,21 @@ and the CYCLE GAN Training was performed as per the diagram:
 
 Clone the Repo:
 
+'''bash
 git clone https://github.com/Prateeth8/Gen-EVENT.git
+
 cd Gen-EVENT
+'''
 
+'''bash
 python3 -m venv venv
+
 source venv/bin/activate
+'''
 
+'''bash
 pip install -r requirements.txt
-
+'''
 
 # Testing script
 
@@ -36,7 +43,9 @@ https://drive.google.com/drive/folders/1LKY3f-buFUC05VQ--OOdooPLGfLzgMcY?usp=sha
 
 Generating Event Frames from images
 
+'''bash
 python3 file_name.py --model_path model_path --data_path dataset_path --out_path output_dir_path
+'''
 
 
 # Results
